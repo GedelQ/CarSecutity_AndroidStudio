@@ -7,10 +7,10 @@
     android:background="@drawable/background"
     tools:context=".FormLogin">
     <ImageView
-        android:id="@+id/segurologo"
+        android:id="@+id/logo2"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/segurologo"
+        android:src="@drawable/logo2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
@@ -19,7 +19,7 @@
     style="@style/ContainerComponents"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/segurologo"
+    app:layout_constraintTop_toBottomOf="@id/logo2"
     />
 <EditText
     android:id="@+id/edit_email"
@@ -38,6 +38,14 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintTop_toBottomOf="@+id/edit_email"
-
         />
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/BButton"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_senha"
+
+    />
 </androidx.constraintlayout.widget.ConstraintLayout>
