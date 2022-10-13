@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CarSecutity</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Cadastre-se</string>
+    <string name="esqueci_senha">Esqueci minha senha</string>
 
 </resources>
