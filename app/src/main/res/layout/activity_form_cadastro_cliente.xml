@@ -159,8 +159,10 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents2"
         app:layout_constraintEnd_toEndOf="@id/containerComponents2"
         />
+
     <androidx.appcompat.widget.AppCompatButton
-        style="@style/BButton"
+
+        style="@style/BButton2"
         android:text="Cadastrar"
         app:layout_constraintTop_toBottomOf="@+id/edit_senha"
         app:layout_constraintStart_toStartOf="parent"
