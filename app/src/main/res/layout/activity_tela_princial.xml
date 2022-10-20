@@ -49,6 +49,7 @@
         style="@style/ContainerComponents"
         app:layout_constraintTop_toBottomOf="@+id/bem_vindo"
 
+
        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,5 +14,8 @@
     <color name="azul_escuro">#01254A</color>
     <color name="azul_escuro2">#01254A</color>
     <color name="azul_roxo">#000f25</color>
+    <color name="azul_logo">#012750</color>
+    <color name="azul_botao">#011f32</color>
+    <color name="cinza_botão">#CECECE</color>
 
 </resources>
