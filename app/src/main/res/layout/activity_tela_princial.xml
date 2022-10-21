@@ -9,8 +9,8 @@
 
     <View
         android:id="@+id/containerUser"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@drawable/container_user"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,8 +19,8 @@
         />
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@drawable/ic_user"
         app:layout_constraintStart_toStartOf="@+id/containerUser"
         app:layout_constraintEnd_toEndOf="@+id/containerUser"
@@ -68,7 +68,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cadastrar_veículo"
         style="@style/BButton3"
-        android:text="Cadastrar vículo"
+        android:text="Cadastrar veículo"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/assinar"
         app:layout_constraintEnd_toStartOf="parent"
