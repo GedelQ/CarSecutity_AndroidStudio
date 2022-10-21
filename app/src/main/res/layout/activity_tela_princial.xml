@@ -44,5 +44,81 @@
         app:layout_constraintStart_toStartOf="@id/containerUser"
         />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edit_perfil"
+        style="@style/BButton3"
+        android:text="Editar perfil"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/bem_vindo"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/assinar"
+        style="@style/BButton3"
+        android:text="Assinar plano de seguro"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/edit_perfil"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cadastrar_veículo"
+        style="@style/BButton3"
+        android:text="Cadastrar vículo"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/assinar"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/suporte"
+        style="@style/BButton3"
+        android:text="Solicitar suporte"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/cadastrar_veículo"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gps"
+        style="@style/BButton3"
+        android:text="GPS"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/suporte"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contatar"
+        style="@style/BButton3"
+        android:text="Contatar sguradora"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/gps"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sair"
+        style="@style/BButton2"
+        android:text="Sair"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/contatar"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

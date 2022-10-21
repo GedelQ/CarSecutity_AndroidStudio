@@ -18,6 +18,7 @@ public class FormLogin extends AppCompatActivity {
 
         getSupportActionBar().hide();
         IniciarComponentes();
+
 // clique do botão para cadastrar
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,5 +33,7 @@ public class FormLogin extends AppCompatActivity {
         text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
 
     }
+
+
 }
 

@@ -17,5 +17,6 @@
     <color name="azul_logo">#012750</color>
     <color name="azul_botao">#011f32</color>
     <color name="cinza_botão">#CECECE</color>
+    <color name="red">#E61919</color>
 
 </resources>
