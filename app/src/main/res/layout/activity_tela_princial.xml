@@ -106,7 +106,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/sair"
+        android:id="@+id/bt_sair"
         style="@style/BButton2"
         android:text="Sair"
         android:textColor="@color/black"
@@ -115,10 +115,5 @@
         app:layout_constraintEnd_toEndOf="parent"
 
         />
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
