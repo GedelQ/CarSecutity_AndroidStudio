@@ -32,8 +32,8 @@
         <item name="android:background">@drawable/edit_text2</item>
         <item name="android:padding">10dp</item>
         <item name="android:maxLength">100</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
         <item name="android:layout_marginTop">10dp</item>
 
     </style>
