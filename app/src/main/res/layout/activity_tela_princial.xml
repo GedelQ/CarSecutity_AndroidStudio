@@ -98,7 +98,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/contatar"
         style="@style/BButton3"
-        android:text="Contatar sguradora"
+        android:text="Contatar seguradora"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/gps"
         app:layout_constraintEnd_toStartOf="parent"
