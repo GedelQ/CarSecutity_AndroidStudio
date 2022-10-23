@@ -12,6 +12,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.example.carsecutity.databinding.ActivityGpsBinding;
 
+
 public class GPS extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -42,10 +43,12 @@ public class GPS extends FragmentActivity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng unip = new LatLng(-23.5649147, -46.6508087);
+        mMap.addMarker(new MarkerOptions().position(unip).title("Unip"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(unip));
     }
+
+
+
 }
