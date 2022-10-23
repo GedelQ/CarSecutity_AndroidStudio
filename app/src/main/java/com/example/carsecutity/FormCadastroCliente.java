@@ -22,7 +22,7 @@ public class FormCadastroCliente extends AppCompatActivity {
         bt_cadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(FormCadastroCliente.this,TelaPrincial.class);
+                Intent intent= new Intent(FormCadastroCliente.this, TelaPrincipal.class);
                 startActivity(intent);
             }
         });

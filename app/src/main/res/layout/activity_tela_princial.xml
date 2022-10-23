@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".TelaPrincial">
+    tools:context=".TelaPrincipal">
 
     <View
         android:id="@+id/containerUser"
@@ -32,7 +32,7 @@
         android:id="@+id/bem_vindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bem-vindo 'Úsuário!'"
+        android:text="@string/bem_vindo"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -45,7 +45,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/edit_perfil"
+        android:id="@+id/bt_edit_perfil"
         style="@style/BButton3"
         android:text="Editar perfil"
         android:textColor="@color/black"
@@ -60,13 +60,13 @@
         style="@style/BButton3"
         android:text="Assinar plano de seguro"
         android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/edit_perfil"
+        app:layout_constraintTop_toBottomOf="@id/bt_edit_perfil"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/cadastrar_veículo"
+        android:id="@+id/bt_cadastrar_veículo"
         style="@style/BButton3"
         android:text="Cadastrar veículo"
         android:textColor="@color/black"
@@ -80,15 +80,15 @@
         style="@style/BButton3"
         android:text="Solicitar suporte"
         android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/cadastrar_veículo"
+        app:layout_constraintTop_toBottomOf="@id/bt_cadastrar_veículo"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/gps"
+        android:id="@+id/bt_gps"
         style="@style/BButton3"
-        android:text="GPS"
+        android:text="@string/title_activity_gps"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@id/suporte"
         app:layout_constraintEnd_toStartOf="parent"
@@ -96,11 +96,11 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/contatar"
+        android:id="@+id/bt_contatar"
         style="@style/BButton3"
         android:text="Contatar seguradora"
         android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/gps"
+        app:layout_constraintTop_toBottomOf="@id/bt_gps"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
@@ -110,7 +110,7 @@
         style="@style/BButton2"
         android:text="Sair"
         android:textColor="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/contatar"
+        app:layout_constraintTop_toBottomOf="@id/bt_contatar"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 

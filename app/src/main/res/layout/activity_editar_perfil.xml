@@ -56,6 +56,7 @@
        android:textColorHint="@color/black"
        android:textColor="@color/black"
        android:hint="Telefone"
+       android:inputType="phone"
 
        />
 
@@ -69,6 +70,7 @@
        android:textColorHint="@color/black"
        android:textColor="@color/black"
        android:hint="CPF / CNPJ"
+       android:inputType="number"
 
        />
 
@@ -83,6 +85,7 @@
        android:textColor="@color/black"
        android:hint="RG"
 
+
        />
 
 
@@ -96,6 +99,7 @@
        android:textColorHint="@color/black"
        android:textColor="@color/black"
        android:hint="CNH"
+       android:inputType="number"
        />
 
 
@@ -110,6 +114,7 @@
        android:textColorHint="@color/black"
        android:textColor="@color/black"
        android:hint="Data de nascimento"
+       android:inputType="date"
        />
 
    <EditText
@@ -158,6 +163,7 @@
        android:textColorHint="@color/black"
        android:textColor="@color/black"
        android:hint="Telefone comercial"
+       android:inputType="phone"
        />
 
 
@@ -170,6 +176,7 @@
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintTop_toBottomOf="@id/edit_tel_comercial"
+
        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

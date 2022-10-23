@@ -4,5 +4,6 @@
     <string name="text_cadastro">Cadastre-se</string>
     <string name="esqueci_senha">Esqueci minha senha</string>
     <string name="title_activity_gps">GPS</string>
+    <string name="bem_vindo">Bem-vindo "Úsuario"</string>
 
 </resources>
