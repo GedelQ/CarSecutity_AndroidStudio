@@ -8,5 +8,194 @@
     android:background="@drawable/background"
     >
 
+    <TextView
+        android:id="@+id/assinatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Assinatura de plano"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/preencha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/preencha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Preencha os campos abaixo para assinar um plano de seguro"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/plano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/assinatura" />
+
+
+    <TextView
+        android:id="@+id/plano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="7dp"
+        android:text="Escolha um plano:"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preencha" />
+
+    <TextView
+        android:id="@+id/servicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="13dp"
+        android:text="Escolha os serviços que gostaria de aderirir:"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/radio_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_2" />
+
+
+    <EditText
+        android:id="@+id/total"
+        style="@style/Edit_text2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="700dp"
+        android:text="Valor total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_edit_perfil"
+        style="@style/BButton2"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="Próximo"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total" />
+
+    <RadioButton
+        android:id="@+id/radio_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="checkButton"
+        android:text="Plano básico"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_2"
+        app:layout_constraintEnd_toStartOf="@+id/plano"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plano" />
+
+    <RadioButton
+        android:id="@+id/radio_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="8dp"
+        android:text="Plano avançado"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/servicos"
+        app:layout_constraintEnd_toStartOf="@+id/servicos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_1" />
+
+    <RadioButton
+        android:id="@+id/radio_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="216dp"
+        android:text="Seguro roubo e furto"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_3"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <RadioButton
+        android:id="@+id/radio_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guincho 24 horas"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+    <RadioButton
+        android:id="@+id/radio_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seguro contra danos"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_4" />
+
+    <RadioButton
+        android:id="@+id/radio_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviço de GPS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_5" />
+
+    <RadioButton
+        android:id="@+id/radio_7"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Serviço de alarme"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_6" />
+
+    <RadioButton
+        android:id="@+id/radio_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistência 24 horas"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/radio_9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_7" />
+
+    <RadioButton
+        android:id="@+id/radio_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reparos em oficina especializada"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_8" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
