@@ -169,14 +169,13 @@
 
    <androidx.appcompat.widget.AppCompatButton
        android:id="@+id/bt_salvar"
-       style="@style/BButton3"
+       style="@style/BButton2"
        android:text="Salvar"
        android:layout_marginTop="30dp"
        android:textColor="@color/black"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintTop_toBottomOf="@id/edit_tel_comercial"
-
        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
