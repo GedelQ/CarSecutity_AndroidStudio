@@ -14,6 +14,7 @@ public class TelaPrincipal extends AppCompatActivity {
     private Button bt_contatar;
     private Button bt_gps;
     private Button bt_assinar;
+    private Button bt_suporte;
 
 
     @Override
@@ -65,6 +66,16 @@ public class TelaPrincipal extends AppCompatActivity {
             }
         });
 
+
+
+        bt_suporte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TelaPrincipal.this, SolicitarSuporte.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
@@ -74,5 +85,6 @@ public class TelaPrincipal extends AppCompatActivity {
         bt_contatar = findViewById(R.id.bt_contatar);
         bt_gps = findViewById(R.id.bt_gps);
         bt_assinar = findViewById(R.id.bt_assinar);
+        bt_suporte = findViewById(R.id.bt_suporte);
     }
 }

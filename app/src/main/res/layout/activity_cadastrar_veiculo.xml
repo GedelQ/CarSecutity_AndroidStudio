@@ -12,8 +12,8 @@
     <View
         android:id="@+id/containerComponents"
         style="@style/ContainerComponents"
-        android:layout_width="355dp"
-        android:layout_height="397dp"
+        android:layout_width="372dp"
+        android:layout_height="399dp"
         android:layout_marginStart="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

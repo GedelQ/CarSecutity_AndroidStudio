@@ -45,6 +45,20 @@
         <item name="android:layout_marginTop">10dp</item>
 
     </style>
+
+    // Caixa de texto para cadastro
+
+    <style name="Edit_text3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text3</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:maxLength">100</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
     // botão login
     <style name="BButton">
         <item name="android:layout_width">match_parent</item>

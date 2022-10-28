@@ -11,6 +11,7 @@ public class FormCadastroCliente extends AppCompatActivity {
 
     private Button bt_cadastrar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
