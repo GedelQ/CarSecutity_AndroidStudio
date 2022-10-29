@@ -45,7 +45,7 @@ public class TelaPrincipal extends AppCompatActivity {
         bt_contatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaPrincipal.this, SolicitarSuporte.class);
+                Intent intent = new Intent(TelaPrincipal.this, ContatarSeguradora.class);
                 startActivity(intent);
             }
         });

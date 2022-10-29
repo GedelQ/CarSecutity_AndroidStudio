@@ -10,5 +10,6 @@ public class ContatarSeguradora extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contatar_seguradora);
+        getSupportActionBar().hide();
     }
 }

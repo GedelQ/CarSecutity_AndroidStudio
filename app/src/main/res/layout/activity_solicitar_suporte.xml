@@ -125,7 +125,7 @@
         android:layout_width="375dp"
         android:layout_height="167dp"
         android:layout_marginTop="4dp"
-        android:text="Descrição"
+        android:hint="Descrição"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -164,10 +164,12 @@
         style="@style/Edit_text2"
         android:layout_width="376dp"
         android:layout_height="45dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/informe"
-        android:text="Endereço"/>
+        android:hint="Endereço"/>
 
     <androidx.appcompat.widget.AppCompatButton
 
