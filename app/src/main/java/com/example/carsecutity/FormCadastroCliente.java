@@ -12,6 +12,7 @@ public class FormCadastroCliente extends AppCompatActivity {
     private Button bt_cadastrar;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,6 @@ public class FormCadastroCliente extends AppCompatActivity {
 
     private void IniciarComponents(){
             bt_cadastrar = findViewById(R.id.bt_cadastrar);
-
     }
 
 }
