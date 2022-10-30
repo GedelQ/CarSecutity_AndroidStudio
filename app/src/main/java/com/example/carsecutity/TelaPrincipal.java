@@ -53,7 +53,7 @@ public class TelaPrincipal extends AppCompatActivity {
         bt_gps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaPrincipal.this, GPS.class);
+                Intent intent = new Intent(TelaPrincipal.this, MainActivity.class);
                 startActivity(intent);
             }
         });

@@ -5,5 +5,8 @@
     <string name="esqueci_senha">Esqueci minha senha</string>
     <string name="title_activity_gps">GPS</string>
     <string name="bem_vindo">Bem-vindo</string>
+    <string name="simula_o">(Simulação)</string>
+    <string name="encerrar_simula_o">Encerrar simulação</string>
+    <string name="nome_do_plano">"Nome do plano"</string>
 
 </resources>

@@ -41,12 +41,16 @@ public class GPS extends FragmentActivity implements OnMapReadyCallback {
      * installed Google Play services and returned to the app.
      */
     @Override
+
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
         // Add a marker in Sydney and move the camera
         LatLng unip = new LatLng(-23.5649147, -46.6508087);
         mMap.addMarker(new MarkerOptions().position(unip).title("Unip"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(unip));
+
+
     }
 
 
