@@ -1,11 +1,12 @@
 package com.example.carsecutity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 public class TelaPrincipal extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class TelaPrincipal extends AppCompatActivity {
     private Button bt_gps;
     private Button bt_assinar;
     private Button bt_suporte;
+    private Button bt_simular;
 
 
 
@@ -25,6 +27,7 @@ public class TelaPrincipal extends AppCompatActivity {
         getSupportActionBar().hide();
 
         IniciarComponents();
+        Fragment fragment = new Fragment();
 
         bt_sair.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,7 +56,7 @@ public class TelaPrincipal extends AppCompatActivity {
         bt_gps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaPrincipal.this, MainActivity.class);
+                Intent intent = new Intent(TelaPrincipal.this, GPS.class);
                 startActivity(intent);
             }
         });
@@ -77,6 +80,15 @@ public class TelaPrincipal extends AppCompatActivity {
             }
         });
 
+        bt_simular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TelaPrincipal.this, Simular.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
 
@@ -87,5 +99,9 @@ public class TelaPrincipal extends AppCompatActivity {
         bt_gps = findViewById(R.id.bt_gps);
         bt_assinar = findViewById(R.id.bt_assinar);
         bt_suporte = findViewById(R.id.bt_suporte);
+        bt_simular = findViewById(R.id.bt_simular);
+
     }
+
+
 }

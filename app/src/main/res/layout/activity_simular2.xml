@@ -111,9 +111,9 @@
         app:layout_constraintTop_toBottomOf="@+id/reparos" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_proximo"
+        android:id="@+id/bt_encerrar"
         style="@style/BButton2"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="@string/encerrar_simula_o"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,12 +123,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_aderir"
         style="@style/BButton2"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:text="Aderir plano"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_proximo" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_encerrar" />
 
     <CheckBox
         android:id="@+id/basico"
@@ -145,7 +145,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Plano avançado"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -156,9 +156,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-
         android:text="Guincho 24 horas"
-
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/servicos" />
@@ -168,7 +166,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Roubo e furto"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -179,7 +177,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Seguro contra danos"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -190,7 +188,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Serviços de GPS"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -201,7 +199,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Serviços de alarme"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -212,7 +210,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Assistência 24 horas"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -223,7 +221,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="-10dp"
+        android:layout_marginTop="-20dp"
         android:text="Reparos em oficina especializada"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"

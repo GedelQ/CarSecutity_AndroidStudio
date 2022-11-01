@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Simular">
 
     <View
@@ -33,7 +34,7 @@
         android:id="@+id/cadastro_veiculo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:text="Cadastro do veiculo"
         android:textColor="@color/white"
         android:textSize="30dp"
@@ -61,7 +62,7 @@
         android:id="@+id/preencha_campo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="78dp"
         android:text="Preencha os campos para cadastrar  seu veículo"
         android:textColor="@color/black"
         android:textSize="16dp"
